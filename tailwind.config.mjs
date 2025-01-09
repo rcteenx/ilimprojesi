@@ -14,6 +14,9 @@ export default {
         primary: {
           DEFAULT: "#8c8c8c",
         },
+
+        "dark-purple": "#081A51",
+        "light-white": "rgba(255,255,255,0.18)",
         indigo: {
           DEFAULT: "#333366",
           light: {

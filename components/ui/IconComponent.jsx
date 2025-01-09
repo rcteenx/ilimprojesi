@@ -1,4 +1,13 @@
 import {
+  BsArrowLeftShort,
+  BsSearch,
+  BsChevronDown,
+  BsFillImageFill,
+  BsReverseLayoutTextSidebarReverse,
+  BsPerson,
+} from "react-icons/bs";
+
+import {
   FaFacebook,
   FaGithub,
   FaInstagram,
@@ -19,7 +28,27 @@ import {
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
+import {
+  AiOutlineFileText,
+  AiOutlineBarChart,
+  AiOutlineMail,
+  AiOutlineSetting,
+  AiOutlineLogout,
+} from "react-icons/ai";
+import { RiDashboardFill } from "react-icons/ri";
+
 const iconTypes = {
+  AiOutlineFileText: AiOutlineFileText,
+  AiOutlineBarChart: AiOutlineBarChart,
+  AiOutlineMail: AiOutlineMail,
+  AiOutlineSetting: AiOutlineSetting,
+  AiOutlineLogout: AiOutlineLogout,
+  BsArrowLeftShort: BsArrowLeftShort,
+  BsSearch: BsSearch,
+  BsChevronDown: BsChevronDown,
+  BsFillImageFill: BsFillImageFill,
+  BsReverseLayoutTextSidebarReverse: BsReverseLayoutTextSidebarReverse,
+  BsPerson: BsPerson,
   facebook: FaFacebook,
   instagram: FaInstagram,
   github: FaGithub,

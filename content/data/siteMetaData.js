@@ -1,15 +1,13 @@
 // please update required information
 const siteMetadata = {
-  title: "Reyhan Çetin - Bilinçli Farkındalık Çemberi",
+  title: "İlim Projesi",
   author: "rcteenx",
-  headerTitle:
-    "Reyhan Çetin - Bilinçli Farkındalık Çemberi | Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
-  description:
-    "Reyhan Çetin - Bilinçli Farkındalık Çemberi | Ezoterik Felsefe Araştırma ve Uygulama Topluluğu",
+  headerTitle: "İlim Projesi - Motto !",
+  description: "İlim Projesi - Motto !",
   language: "tr-TR",
-  siteUrl: "https://reyhancetin.com.tr/",
-  siteLogo: "/logo-rc.png",
-  email: "rhan.cetinx@gmail.com",
+  siteUrl: "https://ilimprojesi.com",
+  siteOwner: "/logo-aol.png",
+  email: "rcteenx@gmail.com",
 };
 
 module.exports = siteMetadata;
