@@ -6,7 +6,7 @@ const siteMetadata = {
   description: "İlim Projesi - Motto !",
   language: "tr-TR",
   siteUrl: "https://ilimprojesi.com",
-  siteOwner: "/logo-aol.png",
+  siteOwner: "/color-wheel.png",
   email: "rcteenx@gmail.com",
 };
 

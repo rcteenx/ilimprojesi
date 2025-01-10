@@ -72,7 +72,7 @@ export default function Sidebar({ children }) {
             !open && "scale-0"
           }`}
         >
-          Workboard
+          ilgiBilgi
         </h2>
       </div>
       <ul className="pt-2">
