@@ -10,25 +10,131 @@ export const contHero = {
   quote: "Kendimizi ne kadar anlıyor ve gerçekliğimizi yaşayabiliyoruz?",
 };
 
-export const barInfo = {
-  h2: "BİLİNÇ ve FARKINDALIK YOLCULUĞU",
-  desc: "Hayatın içinde pratik bir çalışma",
+export const lastArticle2 = {
   items: [
     {
-      title: "Çalışma",
-      info: "25 yıl",
+      title: "A Peaceful Home",
+      desc: "A peaceful home is more than just a space with walls and a roof",
+      img: "a-peaceful-home.jpeg",
+      writer: "Alice",
     },
     {
-      title: "Katılımcı",
-      info: "10.000",
+      title: "Dune",
+      desc: "Directed by David Lynch and based on Frank Herbert’s 1965 novel",
+      img: "dune.webp",
+      writer: "Michael",
+    },
+  ],
+};
+
+export const lastArticle3 = {
+  items: [
+    {
+      title: "Ghost in Shell",
+      desc: "Ghost in the Shell, released in 1995 and directed by Mamoru Oshii,",
+      img: "ghost-in-shell.webp",
+      writer: "Mamoru",
     },
     {
-      title: "Seminer",
-      info: "1.000",
+      title: "The Matrix",
+      desc: "The Matrix, released in 1999 and directed by the Wachowskis",
+      img: "the-matrix.webp",
+      writer: "Wachowskis",
     },
     {
-      title: "Grup Çalışması",
-      info: "100",
+      title: "Star Wars",
+      desc: "The Star Wars franchise, created by George Lucas",
+      img: "star-wars.webp",
+      writer: "Georgealice",
+    },
+  ],
+};
+
+export const topMenu = {
+  items: [
+    {
+      title: "Tümü",
+      link: "/tumu",
+    },
+    {
+      title: "Uzman",
+      link: "/uzman",
+    },
+    {
+      title: "Deneyim",
+      link: "/deneyim",
+    },
+    {
+      title: "Popüler",
+      link: "/popüler",
+    },
+    {
+      title: "Soru",
+      link: "/soru",
+    },
+  ],
+};
+
+export const flow3 = {
+  items: [
+    {
+      title: "Ghost in Shell",
+      desc: "Ghost in the Shell, released in 1995 and directed by Mamoru Oshii,",
+      img: "ghost-in-shell.webp",
+      writer: "Mamoru",
+    },
+    {
+      title: "The Matrix",
+      desc: "The Matrix, released in 1999 and directed by the Wachowskis",
+      img: "the-matrix.webp",
+      writer: "Wachowskis",
+    },
+    {
+      title: "Star Wars",
+      desc: "The Star Wars franchise, created by George Lucas",
+      img: "star-wars.webp",
+      writer: "Georgealice",
+    },
+  ],
+};
+
+export const flow6 = {
+  items: [
+    {
+      title: "A Peaceful Home",
+      desc: "A peaceful home is more than just a space with walls and a roof",
+      img: "a-peaceful-home.jpeg",
+      writer: "Alice",
+    },
+    {
+      title: "Dune",
+      desc: "Directed by David Lynch and based on Frank Herbert’s 1965 novel",
+      img: "dune.webp",
+      writer: "Michael",
+    },
+    {
+      title: "Ghost in Shell",
+      desc: "Ghost in the Shell, released in 1995 and directed by Mamoru Oshii,",
+      img: "ghost-in-shell.webp",
+      writer: "Mamoru",
+    },
+    {
+      title: "The Matrix",
+      desc: "The Matrix, released in 1999 and directed by the Wachowskis",
+      img: "the-matrix.webp",
+      writer: "Wachowskis",
+    },
+    {
+      title: "Star Wars",
+      desc: "The Star Wars franchise, created by George Lucas",
+      img: "star-wars.webp",
+      writer: "Georgealice",
+    },
+    {
+      title: "Dune",
+      desc: "Directed by David Lynch and based on Frank Herbert’s 1965 novel",
+      img: "dune.webp",
+      writer: "Michael",
     },
   ],
 };
