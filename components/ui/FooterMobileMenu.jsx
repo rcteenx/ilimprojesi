@@ -28,7 +28,7 @@ export default function FooterMobileMenu({ children }) {
   const Menus = [
     { title: "Akış", link: "/akis" },
     { title: "Ara", link: "/ara", icon: <BsSearch /> },
-    { title: "Sayfa", link: "/sayfa", icon: <AiOutlineFileText /> },
+    { title: "Yazılar", link: "/yazilar", icon: <AiOutlineFileText /> },
     {
       title: "Deneyimden",
       link: "/deneyimden",
@@ -44,7 +44,7 @@ export default function FooterMobileMenu({ children }) {
   ];
   const pathname = usePathname();
   return (
-    <footer className="absolute inset-x-0 bottom-0 md:hidden">
+    <footer className="fixed inset-x-0 bottom-0 md:hidden bg-white border-t">
       <ul className=" py-2 flex flex-wrap justify-around	border-t">
         {Menus.map((menu, index) => (
           <Link key={index} href={menu.link}>

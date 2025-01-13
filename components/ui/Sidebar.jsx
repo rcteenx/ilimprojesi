@@ -28,11 +28,15 @@ export default function Sidebar({ children }) {
   const Menus = [
     { title: "Akış", link: "/akis" },
     { title: "Ara", link: "/ara", icon: <BsSearch /> },
-    { title: "Sayfa", link: "/sayfa", icon: <AiOutlineFileText /> },
+    {
+      title: "Yazılar",
+      link: "/yazilar",
+      spacing: true,
+      icon: <AiOutlineFileText />,
+    },
     {
       title: "Deneyimden",
       link: "/deneyimden",
-      spacing: true,
       icon: <BsFillImageFill />,
     },
     {
@@ -40,9 +44,8 @@ export default function Sidebar({ children }) {
       link: "/sorular",
       icon: <BsReverseLayoutTextSidebarReverse />,
     },
-    { title: "Analytics", link: "/analytics", icon: <AiOutlineBarChart /> },
-    { title: "Inbox", link: "/inbox", icon: <AiOutlineMail /> },
     { title: "Profil", link: "/profil", spacing: true, icon: <BsPerson /> },
+    { title: "Mesajlar", link: "/inbox", icon: <AiOutlineMail /> },
     { title: "Ayarlar", link: "/ayarlar", icon: <AiOutlineSetting /> },
     { title: "Çıkış", link: "/cikis", icon: <AiOutlineLogout /> },
   ];
